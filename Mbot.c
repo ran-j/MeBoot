@@ -9,11 +9,11 @@ Servo pataTraseira2;
 
 
 void setup() {
-  pataDianteira1.attach(9);//colocar o pino usado.
-  pataDianteira2.attach(6);//colocar o pino usado.
+  pataDianteira1.attach(9);//esquerda
+  pataDianteira2.attach(10);//direita
   
-  pataTraseira1.attach(11);//colocar o pino usado.
-  pataTraseira2.attach(10);//colocar o pino usado.
+  pataTraseira1.attach(11);//direita
+  pataTraseira2.attach(3);//esquerda
   
   ResetarPosicao();
   delay(500);
