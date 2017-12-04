@@ -1,5 +1,6 @@
 #include <Servo.h>
 //ref https://circuitdigest.com/sites/default/files/inlineimages/servo-rotation.gif
+//ref http://www.microcontroller-project.com/uploads/2/2/1/5/22159166/4020311_orig.jpg
 
 Servo pataDianteira1;
 Servo pataDianteira2;
